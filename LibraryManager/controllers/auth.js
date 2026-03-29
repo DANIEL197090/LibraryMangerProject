@@ -9,7 +9,7 @@ const generateToken = (id) => {
 };
 
 //  Register a Library Attendant
-//  POST /api/v1/auth/register
+//  POST /api/v1/auth/register/libraryAttendant
 
 exports.register = async (req, res) => {
     const { name, staffId, password } = req.body;
