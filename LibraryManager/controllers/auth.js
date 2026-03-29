@@ -8,9 +8,9 @@ const generateToken = (id) => {
     });
 };
 
-// @desc    Register a Library Attendant
-// @route   POST /api/v1/auth/register
-// @access  Public
+//  Register a Library Attendant
+//  POST /api/v1/auth/register
+
 exports.register = async (req, res) => {
     const { name, staffId, password } = req.body;
 
@@ -36,9 +36,9 @@ exports.register = async (req, res) => {
     }
 };
 
-// @desc    Login a Library Attendant
-// @route   POST /api/v1/auth/login
-// @access  Public
+//  Login a Library Attendant
+// POST /api/v1/auth/login
+// Public
 exports.login = async (req, res) => {
     const { staffId, password } = req.body;
 
