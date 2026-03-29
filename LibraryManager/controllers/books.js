@@ -1,6 +1,6 @@
-const Book = require('../models/Book');
-const Student = require('../models/Student');
-const LibraryAttendant = require('../models/LibraryAttendant');
+const Book = require('../models/books');
+const Student = require('../models/student');
+const LibraryAttendant = require('../models/libraryAttendants');
 
 // @desc    Create Book
 // @route   POST /api/v1/books

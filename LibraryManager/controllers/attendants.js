@@ -1,4 +1,4 @@
-const LibraryAttendant = require('../models/LibraryAttendant');
+const LibraryAttendant = require('../models/libraryAttendants');
 
 // @desc    Get All Attendants
 // @route   GET /api/v1/attendants

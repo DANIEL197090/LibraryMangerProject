@@ -1,4 +1,4 @@
-const Student = require('../models/Student');
+const Student = require('../models/student');
 
 // @desc    Create Student
 // @route   POST /api/v1/students
@@ -16,7 +16,7 @@ exports.createStudent = async (req, res) => {
 };
 
 // @desc    Get All Students
-// @route   GET /api/v1/students
+// @route   GET /api/v1/studentsg
 // @access  Public
 exports.getStudents = async (req, res) => {
     try {

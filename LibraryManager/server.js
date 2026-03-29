@@ -20,8 +20,8 @@ app.use(cors());
 // Mount Routes
 app.use('/api/v1/authors', require('./routes/authors'));
 app.use('/api/v1/books', require('./routes/books'));
-app.use('/api/v1/students', require('./routes/students'));
-app.use('/api/v1/attendants', require('./routes/attendants.js'));
+app.use('/api/v1/students', require('./routes/student'));
+app.use('/api/v1/attendants', require('./routes/attendants'));
 app.use('/api/v1/auth', require('./routes/auth'));
 
 const PORT = process.env.PORT || 5050;

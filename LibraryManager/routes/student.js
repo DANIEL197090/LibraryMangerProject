@@ -4,7 +4,7 @@ const {
     createStudent,
     getStudents,
     getStudent
-} = require('../controllers/students');
+} = require('../controllers/student');
 const { protect } = require('../middleware/auth');
 
 const { studentValidator } = require('../middleware/validator');

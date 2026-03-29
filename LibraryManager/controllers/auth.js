@@ -1,4 +1,4 @@
-const LibraryAttendant = require('../models/LibraryAttendant');
+const LibraryAttendant = require('../models/libraryAttendants');
 const jwt = require('jsonwebtoken');
 
 // Generate JWT Token

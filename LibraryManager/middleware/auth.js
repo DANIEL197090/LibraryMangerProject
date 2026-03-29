@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const LibraryAttendant = require('../models/LibraryAttendant');
+const LibraryAttendant = require('../models/libraryAttendants');
 
 const protect = async (req, res, next) => {
     let token;
