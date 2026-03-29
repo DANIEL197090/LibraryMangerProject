@@ -7,10 +7,9 @@ const authorSchema = new mongoose.Schema({
         enum: ["IN", "OUT"],
         default: "IN"
     },
-    borrowBy: {type: mongoose.Schema.Types.ObjectId},
-    issuedBy: {type: mongoose.Schema.Types.ObjectId},
-    bio: String,
-    dob: String
+    borrowBy: {type: mongoose.Schema.Types.ObjectId, ref: "student"},
+    issuedBy: {type: mongoose.Schema.Types.ObjectId, ref: "attendant"},
+    returnDate: {type: String, default: null},
 
 },
 {timestamps: true});
