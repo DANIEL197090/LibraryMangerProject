@@ -14,7 +14,7 @@ const app = express();
 // Body Parser Middleware
 app.use(express.json());
 
-// Enable CORS
+// Allows ALL origins (any website can access your API)
 app.use(cors());
 
 // Mount Routes
